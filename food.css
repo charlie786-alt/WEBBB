@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.t-cen{
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    background-color: rgb(219, 204, 170);
+    height: 68px;
+    justify-content: space-between;
+    width: 98%;
+    margin: auto;
+    border-radius: 12px;
+}
+.nav h1{
+    color: rgba(235, 32, 32, 0.801);
+    margin: auto;
+    position: relative;
+    left: 90px;
+    border-bottom: turquoise;
+    text-decoration: rgb(57, 157, 182) underline;
+   
+  
+    text-decoration-line:underline;
+    text-decoration-style: dotted;
+}
+.logo img{
+    width: 90px;
+    margin-left: 4px;
+    margin-top: 4px;
+    height: 60px;
+    border-radius: 14px;
+}
+.navlist{
+    display: flex;
+    background-color:rgb(245, 173, 6);
+    height: 100%;
+    align-items: center;
+    border-radius: 12px;
+    /* margin-right: 14px; */
+}
+.navlist li{
+    list-style: none;
+    padding: 24px;
+    margin-top: 14px;
+    
+}
+.navlist li a {
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+.navlist li a:hover{
+    border: 1px solid rgb(195, 195, 231);
+    padding: 2px;
+    border-radius: 8px;
+    width: fit-content;
+}
+.bodydiv{
+   background:  url(images/chef-cook-food-fire-kitchen-restaurant-wok-male-uniform-hold-186991880.jpg);
+   background-color: rgba(0, 0, 0, 0.9);
+   background-blend-mode: darken;
+   background-size: 100% 100%;
+   box-shadow: 0px 4px 4px  4px -81px rgba(139, 129, 129, 0.9);
+   height: 520px;
+   width: 94%;
+   margin: auto;
+   border-radius: 8px;
+    
+}
+.form{
+    background: rgb(177, 159, 157); 
+     background-color: rgba(59, 54, 53, 0.1);
+   
+    
+
+    height: 40%;
+    width: 20%;
+    position: relative;
+    top: 60%;
+    left: 1%;
+   
+    
+}
+.form1{
+     /* display: flex; 
+     flex-direction: column; */
+    color: wheat;
+    text-align: center;
+    line-height: 3rem;
+}
+.form1 h4{
+    border-bottom: 2px solid rgb(250, 238, 216);
+    color: rgb(238, 255, 0);
+    
+}
+.form1 input{
+    width: 50%;
+    margin: auto;
+}
+.form1 input::placeholder{
+    text-align: center;
+}
+#name{
+    margin-left: 20px;
+}
+#email{
+    margin-left: 21px;
+}
+#no{
+    margin-left: ;
+}
+.cuis{
+    background-color:rgba(0, 0, 0, 0.123) ;
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-top: 4px;
+    border-radius: 8px;
+    width: 99%;
+    margin: 4px auto;
+    height: 250px;
+
+     
+}
+.cuis1{
+    color: wheat;
+    font-size: 40px;
+   
+   background-color: turquoise;
+   width: 25%;
+   height: 80%;
+   margin: auto ;
+   border-radius: 8px;
+   background: url(images/cuis1.jpg);
+    background-color: rgba(0, 0, 0, 0.1);
+   background-size: 100% 100%;
+   /* background-color: wheat; */
+   /* background-blend-mode: multiply; */
+   background-blend-mode: darken;
+   /* margin-top: 40px; */
+   position: static;
+
+}
+
+.cuis2{
+    /* background-color: turquoise; */
+   width: 25%;
+   height: 80%;
+   margin: auto;
+   border-radius: 8px;
+    background: url(images/dhosa.jpg);
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-blend-mode: darken;
+    /* margin-top: 40px; */
+    
+}
+.cuis3{
+    background-color: rgb(177, 44, 44);
+   width: 25%;
+   height: 80%;
+   margin: auto;
+   border-radius: 8px;
+    background: url(images/poori.jpg);
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* margin-top: 40px; */
+}
+
+.birbox{
+    width: 90%;
+  
+    height: 450px;
+   /* position: absolute; */
+  
+   
+    margin: auto;
+   
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+   border-radius: 14px;
+   /* display: flex;
+   justify-content: space-evenly; */
+}
+.birbox h4{
+    color: wheat;
+    text-align: center;
+    font-size: 22px;
+}
+.birbox h3 {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    /* background-color: rgb(255, 255, 255); */
+    margin-top: 4px;
+}
+.birrubg{
+    background: url(images/birrru.jpg);
+    width: 50%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.877);
+    background-blend-mode: darken;
+    position: relative;
+  margin: auto 8px;
+    border-radius: 14px;
+    margin-top: 6px;
+}
+.birrubg h2{
+    color: wheat;
+    position: relative;
+    top: 80px;
+}
+.birrubg-h3{
+    /* background-color: violet; */
+    color: wheat;
+    text-align: center;
+margin-top: 50px;
+position: relative;
+top: 90px;
+
+}
+.gridd{
+    /* border: 1px solid white; */
+        height: 350px;
+   width: 38%;
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 8px;
+    grid-column-gap: 8px;
+    position: relative;
+   bottom: 84%;
+  left: 60%;
+  margin-top: 2px;
+}
+.gridd1{
+    /* background-color: red; */
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    border-radius: 14px;
+    padding: 55px;
+}
+   
+.gridd2{
+    /* background-color: wheat; */
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    border-radius: 14px;
+    padding: 55px;
+}
+.gridd3{
+    /* background-color: yellow; */
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    border-radius: 14px;
+    padding: 55px;
+}
+.gridd4{
+    /* background-color: teal; */
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    border-radius: 14px;
+    padding: 55px;
+}
+.gridd5{
+    /* background-color: tomato; */
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    border-radius: 14px;
+    padding: 55px;
+}
+.gridd6{
+    /* background-color: olive; */
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    border-radius: 14px;
+    padding: 55px;
+}
+.gridd  img{
+    color: white;
+    background-color: wheat;
+
+}
+.lastt{
+    display: flex;
+    flex-direction: row;
+}
+.lastcon{
+    /* border: 2px solid red; */
+    width: 456px;
+    height: 350px;
+    display: flex;
+    margin: 4px;
+}
+.lastcon img{
+    width: 100%;
+    padding: 24px;
+    border-radius: 12px;
+    border-radius: 50px;
+}
+.lastcontext{
+    /* border: 2px solid red; */
+    width: 50%;
+    text-align: center;
+    margin-top: 4px;
+    padding: 65px;
+    padding-top: 90px;
+    box-sizing: border-box;
+    margin-left: 120px;
+}
+.lastcontext h3 {
+    margin-bottom: 24px;
+}
+.lastcontext p {
+    line-height: 23px;
+}
+.prefoot{
+   font-size: 28px;
+  
+   background-color: rgba(219, 61, 61, 0.096);
+   height: 300px;
+  /* margin-top: 14px; */
+  position: absolute;
+   /* margin-bottom: 14px; */
+  border-radius: 16px;
+  margin: 8px; 
+}
+.prefoot p {
+    position: relative;
+   margin-top: 74px;
+}
+.prefoot img{
+    height: 80px;
+    width: 150px;
+    margin-top: 40px;
+}
+@media only screen and (max-width:1024px){
+    .nav{
+        position: absolute;
+    }
+    .nav h1{
+        position: relative;
+    left: -10px;
+    font-size: 24px;
+    width: 180px;
+    padding: 0px;
+    margin: 18px;
+    }
+    .navlist{
+        width: 400px;
+        position: relative;
+        right: 38px;
+    }
+    .navlist li{
+        padding: 8px;
+        background-color: none;
+    }
+    .form{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
